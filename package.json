@@ -1,0 +1,53 @@
+{
+  "name": "penang-rep",
+  "description": "replica of penang ghost theme",
+  "version": "0.0.1",
+  "engines": {
+    "ghost": ">=3.0.0",
+    "ghost-api": "v3"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.0",
+    "concat": "^3.0.0",
+    "evil-icons": "^1.8.0",
+    "fs": "0.0.2",
+    "headroom.js": "^0.10.3",
+    "jshint": "^2.9.6",
+    "jshint-stylish": "^2.2.0",
+    "lazysizes": "^5.2.0",
+    "lunr": "^0.7.0",
+    "lunr-languages": "^1.0.0",
+    "normalize.css": "^8.0.1",
+    "primer-tooltips": "^1.5.3",
+    "prismjs": "^1.6.0",
+    "run-sequence": "^2.1.0",
+    "sass-mq": "^5.0.1"
+  },
+  "devDependencies": {
+    "dart-sass": "^1.14.3",
+    "gulp": "^4.0.2",
+    "gulp-rtlcss": "^1.4.0",
+    "node-sass": "^4.10.0"
+  },
+  "author": {
+    "name": "jeet",
+    "email": "ritamleo1997@gmail.com"
+  },
+  "config": {
+    "posts_per_page": 12,
+    "image_sizes": {
+      "xs": {
+        "width": 24
+      },
+      "s": {
+        "width": 176
+      },
+      "m": {
+        "width": 652
+      },
+      "l": {
+        "width": 1336
+      }
+    }
+  }
+}

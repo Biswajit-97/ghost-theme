@@ -1,0 +1,36 @@
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--center o-grid__col--4-4-m'>
+      <div class='c-post-image-wrap'>
+        <img class='c-post-image lazyload' data-src='https://static.ghost.org/v3.0.0/images/publishing-options.png'>
+      </div>
+    </div>
+  </div>
+
+
+<div class='o-grid'>
+  <div class='o-grid__col o-grid__col--center o-grid__col--4-4-s'>
+    <div class='c-post-header'>
+      <h2 class='c-post-header__title'>{{ title }}</h2>
+   
+        <p class='c-post-header__excerpt'>{{ custom_excerpt }}</p>
+
+
+   
+        <div class='c-post-header__meta'>
+
+            <a href='{{ url }}' class='c-post-header__author'>
+        
+                <div class='c-post-header__author--image-wrap'>
+                  <img class='c-post-header__author--image lazyload' src='' alt=' name '>
+                </div>
+  
+              {{ name }}
+            </a>
+   
+          <time class='c-post-header__date' datetime='{{ date format='YYYY-MM-DD' }}' >{{ date format='DD.MMM.YYYY' }}</time>
+        </div>
+   
+    </div>
+  </div>
+</div>

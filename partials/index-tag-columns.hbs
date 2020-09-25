@@ -1,0 +1,45 @@
+
+{{#get 'posts' filter='tags:getting-started' limit='4' as |posts|}}
+  {{#if posts}}
+    <div class='c-teaser-wrapper o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l'>
+      <div class='o-grid'>
+        <div class='o-grid__col o-grid__col--full'>
+          <div class='c-title-bar'>
+            <h3 class='c-title-bar__title'>
+              <a href='/tag/work' class='c-title-bar__link'>getting started</a>
+            </h3>
+          </div>
+        </div>
+
+        <div class='o-grid__col'>
+        {{#foreach posts visibility='all'}}
+          {{> teaser }}
+        {{/foreach}}
+        </div>
+      </div>
+    </div>
+  {{/if}}
+{{/get}}
+
+{{#get 'posts' filter='tags:go' limit='4' as |posts|}}
+  {{#if posts}}
+    <div class='c-teaser-wrapper o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l'>
+      <div class='o-grid'>
+        <div class='o-grid__col o-grid__col--full'>
+          <div class='c-title-bar'>
+            <h3 class='c-title-bar__title'>
+              <a href='/tag/work' class='c-title-bar__link'> go</a>
+            </h3>
+          </div>
+        </div>
+
+        <div class='o-grid__col'>
+        {{#foreach posts visibility='all'}}
+          {{> teaser }}
+        {{/foreach}}
+        </div>
+      </div>
+    </div>
+  {{/if}}
+{{/get}}
+

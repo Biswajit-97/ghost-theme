@@ -1,0 +1,38 @@
+{{!< default}}
+
+{{#post}}
+
+<main class='o-wrapper'>
+  {{> post-header }}
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--center o-grid__col--4-4-s'>
+      <div class='c-post_class'>
+    
+          <div class='c-content'>
+            {{ content }}
+          </div>
+          <br>
+
+          
+          <br>
+
+        
+              <div class='c-subscribe'>
+                <div class='o-grid'>
+                  <div class='o-grid__col o-grid__col o-grid__col--3-4-m o-grid__col--3-4-l o-grid__col--center'>
+                    <div data-icon='ei-envelope' data-size='m' class='c-subscribe__icon'></div>
+                    <h3 class='u-type-sm u-type-500 u-color-gray u-mb-32'>Join the newsletter to receive the latest updates in your inbox.</h3>
+                    {{> subscribe-form }}
+                  </div>
+                </div>
+              </div>
+            }
+      </div>
+    </div>
+  </div>
+</main>
+
+{{/post}}
+
+{{> related-posts}}
